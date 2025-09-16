@@ -52,6 +52,10 @@ public class StringAnalyzer {
         // BONUS:
         // Prompt the user for a substring to search for
         // Display the index of the first occurrence or -1 if not found
+        System.out.println(" ");
+        System.out.print("Enter a substring: ");
+        String sub = input.nextLine();
+        System.out.println("The index of the substring you are searching for (with -1 representing the value not being found) is: " + userSentence.indexOf(sub));
         
     }
 }
